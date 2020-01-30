@@ -1,0 +1,342 @@
+.container {
+    background-color: white;
+    width: 200vw;
+    height: 200vh;
+    margin-left: -10px;
+    position: absolute;
+    z-index: 100;
+}
+
+#fakeContainer {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+#mainImage {
+    position: absolute;
+    left: 50%;
+    margin-left: -300px;
+    top: 50%;
+    margin-top: -200px;
+    width: 600px;
+    opacity: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    font-family: 'Montserrat';
+}
+
+h1 {
+    font-size: 300%;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+h3 {
+    font-size: 150%;
+}
+
+h4 {
+    font-size: 120%;
+}
+
+#skill {
+    margin-top: -20px;
+    margin-bottom: -5px;
+}
+
+p {
+    font-family:"Calibri (Body)";
+}
+
+#subHead {
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 20px;
+    font-size: 180%;
+}
+
+body {
+    background-color: white;
+    overflow-x: hidden;
+}
+
+#navElement {
+    height: 127px;
+    width: 100wv;
+    padding-top: 10px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: -20px;
+    background-color: #1677CB;
+}
+
+#navBottom {
+    height: 40px;
+    width: 100wv;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: -20px;
+    background-color: #181818;
+}
+
+#homeButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 110px;
+    padding: 10px;
+}
+
+#homeButtonLeft {
+    display: block;
+    margin-left: 82px;
+    margin-top: 31px; /*63-30*/
+    margin-bottom: auto;
+    width: 60px;
+    padding: 10px;
+    float:left;
+    margin-right: 0px;
+}
+
+#title {
+    font-size: 192%;
+    margin-left: 170px;
+    margin-top: 53px;
+    color: white;
+}
+
+button {
+    height: 50px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+#card {
+    background-color: white;
+    margin: 0 auto;
+    height: auto;
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 5px 0px #3F3F3F;
+    position: relative;
+}
+
+#card:hover {
+    box-shadow: 0px 0px 5px 3px #3F3F3F;
+}
+
+#cardTop{
+    background-color: #CCCCCC;
+    padding: 10px;
+    margin: -10px;
+}
+
+#cardTop h2{
+    display: inline;
+    margin: 0px;
+}
+
+#cardTop button{
+    display: inline;
+    float: right;
+    height: 35px;
+    width: 35px;
+    margin: 0px;
+}
+
+#cardImage {
+    float:left;
+    padding: 20px;
+    margin-right: 0px;
+    display:block;
+}
+
+#dropIcon {
+    width: 20px;
+    margin-left: -3px;
+    margin-top: -3px;
+}
+
+#whiteSection {
+    background-color: white;
+    padding: 10px;
+    margin-left: -10px;
+    width: 100%;
+}
+
+#greySection {
+    background-color: #8E8E8E;
+    padding: 10px;
+    margin-left: -10px;
+    width: 100%;
+}
+
+#blackSection {
+    background-color: #181818;
+    padding: 10px;
+    margin-left: -10px;
+    width: 100%;
+}
+
+#blueSection {
+    background-color: #1677CB;
+    padding: 10px;
+    margin-left: -10px;
+    width: 100%;
+    /* Add Negative Margin Bottom */
+}
+
+#bigFooter {
+    height: 100px;
+    width: 100vw;
+    margin-left: -8px;
+    background-color: #CCCCCC;
+    position: relative;
+    bottom: 0;
+    margin-bottom: -50px;
+    text-align: center;
+}
+
+#bigFooter img {
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: -10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    background-color: #181818;
+    height: 50px;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+footer p {
+    padding: 15px;
+}
+
+#iconBox {
+    display: inline-block;
+    width: 500px;
+}
+
+#iconBoxHeader {
+    width: 200px;
+}
+
+#navIcon {
+    width: 25px;
+    margin-right: 10px;
+}
+
+#whiteText {
+    color: white;
+}
+
+
+#clear {
+    clear: both;
+}
+
+#ulNew {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    background-color: #1677CB;
+    border-radius: 50px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    position: relative;
+    bottom: 10px;
+}
+  
+#newButton {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+}
+  
+#newButton:hover {
+    background-color: #3F3F3F;
+    color: white;
+}
+
+/*ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 40px;
+    margin-top: -5px;
+    margin-left: 78px;
+    float:left;
+    display:block;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 11px 10px;
+    font-size: 14.5px;
+    text-decoration: none;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+  
+li a:hover {
+    background-color: white;
+}*/
+
+#email {
+    float: right;
+    text-decoration: none;
+    color: white;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    margin-top: 5px;
+    font-size: 14.5px;
+    margin-right: 200px;
+    margin-left: 20px;
+}
+
+#miniIcon {
+    width: 40px;
+    float: right;
+    margin-right: 10px;
+}
+
+#miniIcon:hover {
+    width: 40px;
+    float: right;
+    content: url("/assets/images/GitHubIconWhite.png");
+}
