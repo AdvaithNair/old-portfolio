@@ -128,8 +128,8 @@ button {
     height: auto;
     width: 95%;
     padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
     box-shadow: 0px 0px 5px 0px #3F3F3F;
     position: relative;
 }
@@ -138,7 +138,7 @@ button {
     box-shadow: 0px 0px 5px 3px #3F3F3F;
 }
 
-#cardTop{
+#cardTop {
     background-color: #CCCCCC;
     padding: 10px;
     margin: -10px;
@@ -288,36 +288,6 @@ footer p {
     color: white;
 }
 
-/*ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    height: 40px;
-    margin-top: -5px;
-    margin-left: 78px;
-    float:left;
-    display:block;
-}
-  
-li {
-    float: left;
-}
-  
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 11px 10px;
-    font-size: 14.5px;
-    text-decoration: none;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-}
-  
-li a:hover {
-    background-color: white;
-}*/
-
 #email {
     float: right;
     text-decoration: none;
@@ -339,4 +309,48 @@ li a:hover {
     width: 40px;
     float: right;
     content: url("/assets/images/GitHubIconWhite.png");
+}
+
+#bigImage {
+    /* The image used */
+  background-image: url('/assets/images/Main.JPG');
+
+  /* Full height */
+  height: 600px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bigTitle {
+    background-color: #3F3F3F;
+    margin-top: 40px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+#bigTitle h1 {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#lineTop {
+    height: 10px;
+    background-color: #181818;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -40px;
+    margin-top: 40px;
+}
+
+#lineBottom {
+    height: 10px;
+    background-color: #181818;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -40px;
 }
