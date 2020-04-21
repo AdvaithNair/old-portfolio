@@ -359,14 +359,22 @@ footer p {
     margin-top: -40px;
 }
 
-iframe {
-    width: 60%;
-    height: 60%;  
-    margin-top: 30px;
+.youtube-container, .youtube-card-container {
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    padding-bottom: 50%;
+    height: 0;
 }
 
-#youtube {
-    height: 500px;
+.youtube-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
 }
 
 .text-center {
@@ -413,4 +421,29 @@ iframe {
     margin-left: auto;
     margin-right: auto;
     width: 100px;
+}
+
+.youtube-card {
+    width: 33%;
+    margin: 10px;
+    box-shadow: 0px 0px 5px 0px #3F3F3F;
+    height: auto;
+    padding: 0px 10px;
+    padding-bottom: 10px;
+}
+
+.youtube-card:hover {
+    box-shadow: 0px 0px 5px 3px #3F3F3F;
+}
+
+.youtube-title {
+    margin: -10px;
+    padding: 10px;
+    margin-top: 0px;
+    text-align: center;
+    background-color: #181818;
+}
+
+.youtube-card-container {
+    margin-top: 100px;
 }
