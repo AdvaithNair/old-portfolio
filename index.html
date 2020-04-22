@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="assets/css/main.css">
         <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat'>
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     </head>
     <body>
         <!-- Header -->
@@ -21,31 +22,71 @@
         <div id = "navBottom">
             <h2 id = "subHead">PROJECTS</h2>
         </div>
+        <ul>
+            <ul id = "minimize">
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#robots">ROBOTS</a></li>
+                <li><a href="#film">FILMMAKING</a></li>
+            </ul>
+        </ul>
 
         <!-- Parallax -->
         <div id = "bigImage"></div>
 
+        <!-- About Section -->
+        <a name = "about"></a>
+        <div id = "lineTop" style = "margin-top: 0px;"></div>
+        <div id = "bigTitle"><h1>ABOUT</h1></div>
+        <div id = "lineBottom"></div>
+
+        <div>
+            <div style = "display: flex; margin-top: 30px;"><img data-aos="fade-up" data-aos-duration="750" src="assets/images/About/Advaith.png" alt = "Advaith Nair" id = "about-image"></div>
+            <div data-aos="fade-up" data-aos-duration="750">
+                <h1 class = "text-center" >ADVAITH NAIR</h1>
+                <h2 class = "text-center" style = "margin-top: -20px">Full Stack Developer</h2>
+                <h4 class = "text-center" >Lehigh Univerity</h4>
+                <h4 class = "text-center" style = "margin-top: -25px" >Computer Science and Business</h4>
+                <h4 class = "text-center" style = "margin-top: -25px">Class of 2022</h4>
+            </div>
+            <div class = "para-wrapper">
+                <p class = "text-center">
+                My name is Advaith Nair and I'm a creator.
+                <br><br>
+                I create applications of varying scales, whether they be lightweight frontend apps, or require a comperhensive backend system.
+                I'm skilled with various technologies and stacks, and am actively learning more about each stack and expanding.
+                <br><br>
+                This website serves as a portfolio to display my most recent and noteworthy skills, projects, and more.
+                If you'd like to see more about me, visit my main page through the button below.
+                </p>
+            </div>
+
+            <ul class = "robot-button" style = "width: 150px; margin-top: 20px; margin-bottom: 30px;"><a href="https://www.advaithnair.com" id = "newButton">Visit Homepage</a></ul>
+        </div>
+
         <!-- Skills Section -->
-        <div id = "lineTop"></div>
+        <a name = "skills"></a>
+        <div id = "lineTop" style = "margin-top: 0px;"></div>
         <div id = "bigTitle"><h1>SKILLS</h1></div>
         <div id = "lineBottom"></div>
 
         <h2 class = "text-center">PROFICIENT</h2>
 
         <div class = "skill-row">
-            <div class = "skill-card" data-aos="fade-up" data-aos-duration="750">
+            <div id = "skill-card" data-aos="fade-up" data-aos-duration="700">
                 <h3 class = "proficient-title">Java</h3>
                 <img src = "assets/images/Skills/Proficient/Java.png" class = "skill-icon" alt = "Java">
             </div>
-            <div class = "skill-card" data-aos="fade-up" data-aos-duration="750">
+            <div id = "skill-card" data-aos="fade-up" data-aos-duration="750">
                 <h3 class = "proficient-title">Python</h3>
                 <img src = "assets/images/Skills/Proficient/Python.png" class = "skill-icon" alt = "Python">
             </div>
-            <div class = "skill-card" data-aos="fade-up" data-aos-duration="750">
+            <div id = "skill-card" data-aos="fade-up" data-aos-duration="750">
                 <h3 class = "proficient-title">JavaScript</h3>
                 <img src = "assets/images/Skills/Proficient/JavaScript.jpeg" class = "skill-icon" alt = "JavaScript">
             </div>
-            <div class = "skill-card" data-aos="fade-up" data-aos-duration="750">
+            <div id = "skill-card" data-aos="fade-up" data-aos-duration="750">
                 <h3 class = "proficient-title">ReactJS</h3>
                 <img src = "assets/images/Skills/Proficient/React.png" class = "skill-icon" alt = "ReactJS">
             </div>
@@ -54,66 +95,68 @@
         <h2 class = "text-center">COMFORTABLE</h2>
 
         <div class = "skill-row">
-            <div class = "skill-card" data-aos="fade-up" data-aos-duration="750">
+            <div id = "skill-card" data-aos="fade-up" data-aos-duration="750">
                 <h3 class = "comfortable-title">C</h3>
                 <img src = "assets/images/Skills/Comfortable/C.png" class = "skill-icon" alt = "C" style = "width: 115px">
             </div>
-            <div class = "skill-card" data-aos="fade-up" data-aos-duration="750">
+            <div id = "skill-card" data-aos="fade-up" data-aos-duration="750">
                 <h3 class = "comfortable-title">C++</h3>
                 <img src = "assets/images/Skills/Comfortable/C++.png" class = "skill-icon" alt = "C++">
             </div>
-            <div class = "skill-card" data-aos="fade-up" data-aos-duration="750">
+            <div id = "skill-card" data-aos="fade-up" data-aos-duration="750">
                 <h3 class = "comfortable-title">C#</h3>
                 <img src = "assets/images/Skills/Comfortable/CSharp.png" class = "skill-icon" alt = "C#" style = "width: 105px">
             </div>
-            <div class = "skill-card" data-aos="fade-up" data-aos-duration="750">
+            <div id = "skill-card" data-aos="fade-up" data-aos-duration="750">
                 <h3 class = "comfortable-title">NodeJS</h3>
                 <img src = "assets/images/Skills/Comfortable/NodeJS.png" class = "skill-icon" alt = "NodeJS" style = "width: 110px">
             </div>
         </div>
 
         <div class = "skill-row">
-            <div class = "skill-card" data-aos="fade-up" data-aos-duration="750">
+            <div id = "skill-card" data-aos="fade-up" data-aos-duration="750">
                 <h3 class = "comfortable-title">HTML</h3>
                 <img src = "assets/images/Skills/Comfortable/HTML.png" class = "skill-icon" alt = "HTML">
             </div>
-            <div class = "skill-card" data-aos="fade-up" data-aos-duration="750">
+            <div id = "skill-card" data-aos="fade-up" data-aos-duration="750">
                 <h3 class = "comfortable-title">CSS</h3>
                 <img src = "assets/images/Skills/Comfortable/CSS.png" class = "skill-icon" alt = "CSS">
             </div>
-            <div class = "skill-card" data-aos="fade-up" data-aos-duration="750">
+            <div id = "skill-card" data-aos="fade-up" data-aos-duration="750">
                 <h3 class = "comfortable-title">MongoDB</h3>
                 <img src = "assets/images/Skills/Comfortable/MongoDB.png" class = "skill-icon" alt = "MongoDB">
             </div>
-            <div class = "skill-card" data-aos="fade-up" data-aos-duration="750">
+            <div id = "skill-card" data-aos="fade-up" data-aos-duration="750">
                 <h3 class = "comfortable-title">GraphQL</h3>
                 <img src = "assets/images/Skills/Comfortable/GraphQL.png" class = "skill-icon" alt = "GraphQL" >
             </div>
         </div>
 
         <div class = "skill-row">
-            <div class = "skill-card" data-aos="fade-up" data-aos-duration="750">
+            <div id = "skill-card" data-aos="fade-up" data-aos-duration="750">
                 <h3 class = "comfortable-title">Flutter</h3>
                 <img src = "assets/images/Skills/Comfortable/Flutter.png" class = "skill-icon" alt = "Flutter">
             </div>
-            <div class = "skill-card" data-aos="fade-up" data-aos-duration="750">
+            <div id = "skill-card" data-aos="fade-up" data-aos-duration="750">
                 <h3 class = "comfortable-title">Firebase</h3>
                 <img src = "assets/images/Skills/Comfortable/Firebase.png" class = "skill-icon" alt = "Firebase" style = "width: 105px">
             </div>
-            <div class = "skill-card" data-aos="fade-up" data-aos-duration="750">
+            <div id = "skill-card" data-aos="fade-up" data-aos-duration="750">
                 <h3 class = "comfortable-title">SQL</h3>
                 <img src = "assets/images/Skills/Comfortable/SQL.png" class = "skill-icon" alt = "SQL">
             </div>
-            <div class = "skill-card" data-aos="fade-up" data-aos-duration="750">
+            <div id = "skill-card" data-aos="fade-up" data-aos-duration="750">
                 <h3 class = "comfortable-title">OpenCV</h3>
                 <img src = "assets/images/Skills/Comfortable/OpenCV.png" class = "skill-icon" alt = "OpenCV" style = "width: 110px">
             </div>
         </div>
 
+        <div style = "margin-bottom: 30px;"></div>
 
-        <!-- Programming Section -->
-        <div id = "lineTop"></div>
-        <div id = "bigTitle"><h1>PROGRAMMING</h1></div>
+        <!-- Projects Section -->
+        <a name = "projects"></a>
+        <div id = "lineTop" style = "margin-top: -1px;"></div>
+        <div id = "bigTitle"><h1>PROJECTS</h1></div>
         <div id = "lineBottom"></div>
 
             <!-- Aglet -->
@@ -245,91 +288,97 @@
                 <div id="clear"></div>
             </div>
 
+        <div style = "margin-bottom: 60px;"></div>
+
         <!-- Robot Section -->
-        <div id = "lineTop"></div>
+        <a name = "robots"></a>
+        <div id = "lineTop" style = "margin-top: 0px;"></div>
         <div id = "bigTitle"><h1>ROBOTS</h1></div>
         <div id = "lineBottom"></div>
 
+        <div class = "skill-row">
             <!-- Raptor -->
-            <div id = "card" data-aos="fade-right" data-aos-duration="750">
-                <div id = "cardTop" style="background-color: #1677CB;">
-                    <h2 id = "left" style="color: white;">Raptor</h2>
+            <div id = "robot-card" data-aos="fade-right" data-aos-duration="750">
+                <h2 class = "robot-card-top">Raptor</h2>
+                <img class = "robot-image" src="assets/images/Robots/Raptor.jpeg" alt="Raptor">
+                <div class = "robot-info">
+                    <h3 class = "text-center">My Favorite Design</h3>
+                    <h4 class = "text-center" id = "skill">Design, Management</h4>
+                    <h4 class = "text-center" style = "margin-top: 5px;">2019 - 2020</h4>
+                    <ul class = "robot-button"><a href="https://www.youtube.com/watch?v=iMp-LPyZR7g" id = "newButton">Visit</a></ul>
                 </div>
-                <img src="assets/images/Robots/Raptor.jpeg" alt="Raptor" id = "cardImage" width = "400">
-                <h3>My Favorite Design</h3>
-                <h4 id = "skill">Design, Management</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <ul id = "ulNew"><a href="https://www.youtube.com/watch?v=iMp-LPyZR7g" id = "newButton">Visit</a></ul>
-                <div id="clear"></div>
             </div>
 
             <!-- Insight -->
-            <div id = "card" data-aos="fade-left" data-aos-duration="750">
-                <div id = "cardTop" style="background-color: #1677CB;">
-                    <h2 id = "left" style="color: white;">Insight</h2>
+            <div id = "robot-card" data-aos="fade-right" data-aos-duration="750">
+                <h2 class = "robot-card-top">Insight</h2>
+                <img class = "robot-image" src="assets/images/Robots/Insight.jpeg" alt="Raptor">
+                <div class = "robot-info">
+                    <h3 class = "text-center">My Final FTC Robot</h3>
+                    <h4 class = "text-center" id = "skill">Build, Milling, Innovation, Documentation, Design, Management</h4>
+                    <h4 class = "text-center" style = "margin-top: 5px;">2019</h4>
+                    <ul class = "robot-button"><a href="http://overchargedrobotics.org/robot/" id = "newButton">Visit</a></ul>
                 </div>
-                <img src="assets/images/Robots/Insight.jpeg" alt="Insight" id = "cardImage" width = "400">
-                <h3>My Final FTC Robot</h3>
-                <h4 id = "skill">Build, Milling, Innovation, Documentation, Design, Management</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <ul id = "ulNew"><a href="http://overchargedrobotics.org/robot/" id = "newButton">Visit</a></ul>
-                <div id="clear"></div>
             </div>
+        </div>
 
+        <div class = "skill-row">
             <!-- Insight v0 -->
-            <div id = "card" data-aos="fade-right" data-aos-duration="750">
-                <div id = "cardTop" style="background-color: #1677CB;">
-                    <h2 id = "left" style="color: white;">Insight v0</h2>
+            <div id = "robot-card" data-aos="fade-right" data-aos-duration="750">
+                <h2 class = "robot-card-top">Insight v0</h2>
+                <img class = "robot-image" src="assets/images/Robots/Insightv0.jpeg" alt="Raptor">
+                <div class = "robot-info">
+                    <h3 class = "text-center">Quick and Efficient</h3>
+                    <h4 class = "text-center" id = "skill">Build, Milling, Design, Management</h4>
+                    <h4 class = "text-center" style = "margin-top: 5px;">2018</h4>
+                    <ul class = "robot-button"><a href="http://overchargedrobotics.org/robot/" id = "newButton">Visit</a></ul>
                 </div>
-                <img src="assets/images/Robots/Insightv0.jpeg" alt="Insight v0" id = "cardImage" width = "400">
-                <h3>Quick and Efficient</h3>
-                <h4 id = "skill">Build, Milling, Design, Management</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <ul id = "ulNew"><a href="http://overchargedrobotics.org/robot/" id = "newButton">Visit</a></ul>
-                <div id="clear"></div>
             </div>
 
             <!-- Curiosity -->
-            <div id = "card" data-aos="fade-left" data-aos-duration="750">
-                <div id = "cardTop" style="background-color: #1677CB;">
-                    <h2 id = "left" style="color: white;">Curiosity</h2>
+            <div id = "robot-card" data-aos="fade-right" data-aos-duration="750">
+                <h2 class = "robot-card-top">Curiosity</h2>
+                <img class = "robot-image" src="assets/images/Robots/Curiosity.jpeg" alt="Raptor">
+                <div class = "robot-info">
+                    <h3 class = "text-center">Built in 30 Hours</h3>
+                    <h4 class = "text-center" id = "skill">Build, Milling, Innovation, Documentation, Design, Management</h4>
+                    <h4 class = "text-center" style = "margin-top: 5px;">2018</h4>
+                    <ul class = "robot-button"><a href="http://overchargedrobotics.org/robot/" id = "newButton">Visit</a></ul>
                 </div>
-                <img src="assets/images/Robots/Curiosity.jpeg" alt="Curiosity" id = "cardImage" width = "400">
-                <h3>Built in 30 Hours</h3>
-                <h4 id = "skill">Build, Milling, Innovation, Documentation, Design, Management</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <ul id = "ulNew"><a href="http://overchargedrobotics.org/robot/" id = "newButton">Visit</a></ul>
-                <div id="clear"></div>
             </div>
+        </div>
 
-            <!-- El Tigre -->
-            <div id = "card" data-aos="fade-right" data-aos-duration="750">
-                <div id = "cardTop" style="background-color: #1677CB;">
-                    <h2 id = "left" style="color: white;">El Tigre</h2>
+        <div class = "skill-row">
+            <!-- El Tigre-->
+            <div id = "robot-card" data-aos="fade-right" data-aos-duration="750">
+                <h2 class = "robot-card-top">El Tigre</h2>
+                <img class = "robot-image" src="assets/images/Robots/ElTigre.jpeg" alt="El Tigre">
+                <div class = "robot-info">
+                    <h3 class = "text-center">The First Rebuild</h3>
+                    <h4 class = "text-center" id = "skill">Build, Milling, Design, Management</h4>
+                    <h4 class = "text-center" style = "margin-top: 5px;">2018</h4>
+                    <ul class = "robot-button"><a href="http://overchargedrobotics.org/robot/" id = "newButton">Visit</a></ul>
                 </div>
-                <img src="assets/images/Robots/ElTigre.jpeg" alt="El Tigre" id = "cardImage" width = "400">
-                <h3>The First Rebuild</h3>
-                <h4 id = "skill">Build, Milling, Design, Management</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <ul id = "ulNew"><a href="http://overchargedrobotics.org/robot/" id = "newButton">Visit</a></ul>
-                <div id="clear"></div>
             </div>
 
             <!-- Black Widow -->
-            <div id = "card" data-aos="fade-left" data-aos-duration="750">
-                <div id = "cardTop" style="background-color: #1677CB;">
-                    <h2 id = "left" style="color: white;">Black Widow</h2>
+            <div id = "robot-card" data-aos="fade-right" data-aos-duration="750">
+                <h2 class = "robot-card-top">Black Widow</h2>
+                <img class = "robot-image" src="assets/images/Robots/BlackWidow.jpeg" alt="Black Widow">
+                <div class = "robot-info">
+                    <h3 class = "text-center">Built in 30 Hours</h3>
+                    <h4 class = "text-center" id = "skill">Build, Design, Management</h4>
+                    <h4 class = "text-center" style = "margin-top: 5px;">2017</h4>
+                    <ul class = "robot-button"><a href="http://overchargedrobotics.org/robot/" id = "newButton">Visit</a></ul>
                 </div>
-                <img src="assets/images/Robots/BlackWidow.jpeg" alt="Black Widow" id = "cardImage" width = "400">
-                <h3>Simple Elementary Robot</h3>
-                <h4 id = "skill">Build, Design, Management</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <ul id = "ulNew"><a href="http://overchargedrobotics.org/robot/" id = "newButton">Visit</a></ul>
-                <div id="clear"></div>
             </div>
-        
+        </div>
+
+        <div style = "margin-bottom: 30px;"></div>
+
         <!-- Filmmaking Section -->
-        <div id = "lineTop"></div>
+        <a name = "film"></a>
+        <div id = "lineTop" style = "margin-top: 0px;"></div>
         <div id = "bigTitle"><h1>FILMMAKING</h1></div>
         <div id = "lineBottom"></div>
 
@@ -345,7 +394,7 @@
 
             <div class = "skill-row">
                 <!-- Insight Reveal -->
-                <div class = "youtube-card" data-aos="fade-up" data-aos-duration="750">
+                <div id = "youtube-card" data-aos="fade-up" data-aos-duration="750">
                     <h2 class = "youtube-title" style="color: white;">Insight Reveal</h2>
                     <div class = "youtube-container" style = "margin-bottom: 10px:">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/lzN8ynHK-Fk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -353,7 +402,7 @@
                 </div>
 
                 <!-- Insight v0 Reveal -->
-                <div class = "youtube-card" data-aos="fade-up" data-aos-duration="750">
+                <div id = "youtube-card" data-aos="fade-up" data-aos-duration="750">
                     <h2 class = "youtube-title" style="color: white;">Insight v0 Reveal</h2>
                     <div class = "youtube-container" style = "margin-bottom: 10px:">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/4VXEnT3Qbqk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -361,7 +410,7 @@
                 </div>
 
                 <!-- Black Widow Reveal -->
-                <div class = "youtube-card" data-aos="fade-up" data-aos-duration="750">
+                <div id = "youtube-card" data-aos="fade-up" data-aos-duration="750">
                     <h2 class = "youtube-title" style="color: white;">El Tigre Reveal</h2>
                     <div class = "youtube-container" style = "margin-bottom: 10px:">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/5p9X12gCWyw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -371,7 +420,7 @@
 
             <div class = "skill-row">
                 <!-- Meme Reveal 2020 -->
-                <div class = "youtube-card" data-aos="fade-up" data-aos-duration="750">
+                <div id = "youtube-card" data-aos="fade-up" data-aos-duration="750">
                     <h2 class = "youtube-title" style="color: white;">Meme Reveal 2020</h2>
                     <div class = "youtube-container" style = "margin-bottom: 10px:">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/_O-vj0zUk7U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -379,7 +428,7 @@
                 </div>
 
                 <!-- How To Reveal 2 -->
-                <div class = "youtube-card" data-aos="fade-up" data-aos-duration="750">
+                <div id = "youtube-card" data-aos="fade-up" data-aos-duration="750">
                     <h2 class = "youtube-title" style="color: white;">Meme Reveal 2015</h2>
                     <div class = "youtube-container" style = "margin-bottom: 10px:">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/mnmt7Bs4SFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -387,7 +436,7 @@
                 </div>
 
                 <!-- How To Reveal 3 -->
-                <div class = "youtube-card" data-aos="fade-up" data-aos-duration="750">
+                <div id = "youtube-card" data-aos="fade-up" data-aos-duration="750">
                     <h2 class = "youtube-title" style="color: white;">Meme Reveal 2014</h2>
                     <div class = "youtube-container" style = "margin-bottom: 10px:">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/bstBuKFcm54" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -395,12 +444,14 @@
                 </div>
             </div>
 
+            <div style = "margin-bottom: 30px;"></div>
+
         <!-- Footer -->
         <div id = "bigFooter">
             <div id = "iconBox">
-                <a href="https://www.github.com/AdvaithNair"><img src = "assets/images/GitHubIcon.png"></a>
-                <a href="https://www.linkedin.com/in/advaith-nair/"><img src = "assets/images/LinkedInIcon.png"></a>
-                <a href="https://www.facebook.com/advaith.nair.794"><img src = "assets/images/FacebookIcon.png"></a>
+                <a href="https://www.github.com/AdvaithNair"><img src = "assets/images/GitHubIcon.png" id = "footer-icon"></a>
+                <a href="https://www.linkedin.com/in/advaith-nair/"><img src = "assets/images/LinkedInIcon.png" id = "footer-icon"></a>
+                <a href="https://www.facebook.com/advaith.nair.794"><img src = "assets/images/FacebookIcon.png" id = "footer-icon"></a>
             </div>
             
             <footer id = "footer">
@@ -408,7 +459,6 @@
             </footer>  
         </div>
         
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
             AOS.init({once: true,});
         </script>
